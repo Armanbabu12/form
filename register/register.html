@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Registration Form</title>
+    <style> 
+         
+        body{  
+          font-family: Calibri, Helvetica, sans-serif;  
+          background-color: rgb(122, 68, 77);  
+        }  
+        .container {  
+        padding: 50px;  
+          background-color: rgb(42, 129, 221);  
+        }  
+          
+        input[type=text], input[type=password], textarea,input[type=email] {  
+          width: 100%;  
+          padding: 15px;  
+          margin: 5px 0 22px 0;  
+          display: inline-block;  
+          border: none;  
+          background: #f1f1f1;  
+        }  
+       
+         div {  
+                padding: 10px 0;  
+             }  
+        hr {  
+          border: 1px solid #f1f1f1;  
+          margin-bottom: 25px;  
+        }  
+        .registerbtn {  
+          background-color: #4CAF50;  
+          color: white;  
+          padding: 16px 20px;  
+          margin: 8px 0;  
+          border: none;  
+          cursor: pointer;  
+          width: 100%;  
+          opacity: 0.9;  
+        }  
+        .registerbtn:hover {  
+          opacity: 1;  
+        }  
+        </style>  
+</head>
+<body>
+    <div class="container">
+   <center><h1>Gym Registration Form</h1><hr></center> 
+    <form>
+        <label><b>Frist Name:</b></label>
+        <input type="text" name="first name" placeholder="Enter Your First Name"><br><br>
+        <label><b>Last Name:</b></label>
+        <input type="text" name="last name" placeholder="Enter Your Last Name"><br><br>
+        <label><b>Password: </b></label>
+        <input type="password" placeholder="Enter your password"><br><br>
+        <label> <b>Email: </b></label>
+        <input type="email" placeholder="Enter your Email"><br><br>
+        <label><b>Membership Start Date: </b></label>
+        <input type="datetime-local" ><br><br>
+        <label><b>Membership Duration</label> </b><br> <br>
+        <input type="radio" id="Membership" name="Month" value="Month"> 1 Month  <br> <br>
+        <input type="radio" id="Membership" name="Month" value="Month"> 3 Month  <br> <br>
+        <input type="radio" id="Membership" name="Month" value="Month"> 6 Month  <br> <br>
+        <input type="radio" id="Membership" name="Month" value="year"> 1 year  <br> <br>
+        <input type="radio" id="Membership" name="Month" value="year"> 2 year  <br> <br>
+        <input type="radio" id="Membership" name="Month" value="lifetime"> lifetime  <br> <br>
+        <form><b> Please indicate any pre-existing medical conditions </b><br>
+            <input type="checkbox" id="Diabetes" name="Diabetes" value="Diabetes"/>        
+            <label for="Diabetes">Diabetes</label> <br> <br>
+            <input type="checkbox" id="Heart Disease" name="Heart Disease" value="Heart Disease"/>        
+            <label for="Heart Disease">Heart Disease</label> <br> <br>
+            <input type="checkbox" id="Chest Pains" name="Chest Pains" value="Chest Pains"/>        
+            <label for="Chest Pains">Chest Pains</label> <br> <br>
+            <input type="checkbox" id="Shortness of Breath" name="Shortness of Breath" value="Shortness of Breath"/>        
+            <label for="Shortness of Breath">Shortness of Breath</label> <br> <br>
+            <input type="checkbox" id="Broken Bones" name="Broken Bones" value="Broken Bones"/>        
+            <label for="Broken Bones">Broken Bones</label> <br> <br>
+            <input type="checkbox" id="Allergies" name="Allergies" value="Allergies"/>        
+            <label for="Allergies">Allergies</label> <br> <br>
+            <input type="checkbox" id="Recent Childbirth" name="Recent Childbirth" value="Recent Childbirth"/>        
+            <label for="Recent Childbirth">Recent Childbirth</label> <br> <br>
+            <input type="checkbox" id="Heart Murmur" name="Heart Murmur" value="Heart Murmur"/>        
+            <label for="Heart Murmur">Heart Murmur</label> <br> <br>
+            <input type="checkbox" id="Palpitations" name="Palpitations" value="Palpitations"/>        
+            <label for="Palpitations">Palpitations</label> <br>
+            <br><b>Additional Medical Notes:</b><br>  <br>
+            <textarea></textarea><br>  <br>
+            <button type="submit" class="registerbtn">Register</button> 
+            
+        </form>
+    </form>
+    </div>
+</body>
+</html>
